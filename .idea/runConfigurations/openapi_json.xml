@@ -1,0 +1,60 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="openapi.json" type="SwaggerCodegen" editBeforeRun="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <option name="allowRunningInParallel" value="false" />
+    <option name="customTemplatesPath" value="" />
+    <option name="generateToPath" value="$PROJECT_DIR$/" />
+    <option name="generationParameters">
+      <list>
+        <CliArgumentViewModel>
+          <option name="name" value="artifactId" />
+          <option name="value" value="ksef-client" />
+        </CliArgumentViewModel>
+        <CliArgumentViewModel>
+          <option name="name" value="groupId" />
+          <option name="value" value="pl.com.codenow" />
+        </CliArgumentViewModel>
+        <CliArgumentViewModel>
+          <option name="name" value="useSpringBoot3" />
+          <option name="value" value="true" />
+        </CliArgumentViewModel>
+        <CliArgumentViewModel>
+          <option name="name" value="sourceFolder" />
+          <option name="value" value="src/main/kotlin" />
+        </CliArgumentViewModel>
+        <CliArgumentViewModel>
+          <option name="name" value="packageName" />
+          <option name="value" value="pl.com.codenow.ksefclient" />
+        </CliArgumentViewModel>
+        <CliArgumentViewModel>
+          <option name="name" value="apiSuffix" />
+          <option name="value" value="KsefApi" />
+        </CliArgumentViewModel>
+        <CliArgumentViewModel>
+          <option name="name" value="sortParamsByRequiredFlag" />
+          <option name="value" value="true" />
+        </CliArgumentViewModel>
+        <CliArgumentViewModel>
+          <option name="name" value="sortModelPropertiesByRequiredFlag" />
+          <option name="value" value="true" />
+        </CliArgumentViewModel>
+        <CliArgumentViewModel>
+          <option name="name" value="artifactVersion" />
+          <option name="value" value="2.0.0" />
+        </CliArgumentViewModel>
+        <CliArgumentViewModel>
+          <option name="name" value="dateLibrary" />
+          <option name="value" value="java8-localdatetime" />
+        </CliArgumentViewModel>
+      </list>
+    </option>
+    <option name="generatorType" value="OPENAPI_GENERATOR_V7" />
+    <option name="jdkPath" value="$APPLICATION_HOME_DIR$/jbr/bin/java" />
+    <option name="language" value="kotlin" />
+    <option name="projectPathOnTarget" />
+    <option name="selectedOptions">
+      <list />
+    </option>
+    <option name="specificationPath" value="$PROJECT_DIR$/src/main/resources/openapi.json" />
+    <method v="2" />
+  </configuration>
+</component>
